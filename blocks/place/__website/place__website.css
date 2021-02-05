@@ -1,0 +1,6 @@
+.place__website {
+  display: grid;
+  grid-template-rows: max-content max-content;
+  grid-gap: 12px;
+  align-content: end;
+}

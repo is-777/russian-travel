@@ -1,0 +1,21 @@
+.footer__nav {
+  margin-right: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
+  list-style: none;
+  display: inline;
+}
+
+
+@media (max-width: 750px) {
+   .footer__nav {
+     display: block;
+     margin-bottom: 32px;
+  }
+
+  .footer__nav:last-child {
+     margin-bottom: 48px;
+  }
+ }

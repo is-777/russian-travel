@@ -1,0 +1,6 @@
+.cover__content {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
+  margin: auto 0;
+}

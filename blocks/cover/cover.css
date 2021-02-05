@@ -1,0 +1,29 @@
+.cover {
+  margin: 92px auto;
+  display: grid;
+  max-width: 1184px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.cover:hover {
+
+}
+
+@media (max-width: 1050px) {
+  .place {
+    max-width: none;
+  }
+}
+
+@media (max-width: 790px) {
+  .place {
+    margin: 90px auto 88px;
+  }
+}
+
+@media (max-width: 350px) {
+  .place {
+    margin: 66px auto 64px;
+  }
+}
