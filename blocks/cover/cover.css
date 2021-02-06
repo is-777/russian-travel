@@ -1,29 +1,25 @@
 .cover {
   margin: 92px auto;
-  display: grid;
-  max-width: 1184px;
-  text-decoration: none;
-  color: #FFFFFF;
+  background-image: url(../../images/cover-trains.jpg) ;
+  background-position: center center;
+  background-size: cover;
 }
 
-.cover:hover {
-
-}
-
-@media (max-width: 1050px) {
-  .place {
-    max-width: none;
-  }
-}
-
-@media (max-width: 790px) {
-  .place {
-    margin: 90px auto 88px;
-  }
+@media (max-width: 750px) {
+  .cover {
+     margin-top: 90px;
+     margin-bottom: 88px;
+   }
 }
 
 @media (max-width: 350px) {
-  .place {
-    margin: 66px auto 64px;
-  }
+  .cover {
+     margin-top: 66px;
+     margin-bottom: 64px;
+   }
+}
+
+.cover:hover .cover__overlay {
+  opacity: .8;
+  transition: .3s;
 }

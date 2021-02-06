@@ -8,14 +8,19 @@
   display: inline;
 }
 
-
 @media (max-width: 750px) {
    .footer__nav {
      display: block;
      margin-bottom: 32px;
-  }
-
-  .footer__nav:last-child {
-     margin-bottom: 48px;
-  }
  }
+
+@media (max-width: 350px) {
+  .footer__nav {
+     font-size: 24px;
+   }
+}
+
+.footer__nav:last-child {
+   margin-bottom: 48px;
+  }
+}

@@ -1,13 +1,11 @@
 .cover__overlay {
-   background: #2A2C2F;
-   opacity: 0.3;
-   width: 100%;
-   grid-row: 1;
-   grid-column: 1;
-}
-
-.cover__overlay:hover {
-  opacity: .8;
-  transition: .3s;
-  z-index: 2;
+  display: grid;
+  grid-row: 1;
+  grid-column: 1;
+  background: #2A2C2F;
+  opacity: 0.3;
+  width: 100%;
+  grid-row: 1;
+  grid-column: 1;
+  padding: 30% 0;
 }
