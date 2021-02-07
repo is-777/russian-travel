@@ -1,21 +1,19 @@
 .cover {
-  margin: 52px auto 92px;
+  margin: 44px auto 92px;
   max-width: 1184px;
   background-image: url(../../images/cover-trains.jpg);
   background-position: center center;
   background-size: cover;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1050px) {
   .cover {
-    margin-top: 60px;
     max-width: 1024px;
    }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 790px) {
   .cover {
-    margin-top: 62px;
     margin-bottom: 88px;
    }
 }
@@ -25,9 +23,4 @@
     margin-top: 34px;
     margin-bottom: 64px;
    }
-}
-
-.cover:hover .cover__overlay {
-  opacity: .8;
-  transition: .3s;
 }
